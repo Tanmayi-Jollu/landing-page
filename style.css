@@ -1,7 +1,11 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: Roboto, sans-serif;
     padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +33,40 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a, .sub-text {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-main {
+
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.hero-text {
+
+}
+
+
+
