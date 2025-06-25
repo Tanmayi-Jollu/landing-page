@@ -88,3 +88,28 @@ button {
     max-width: 100%;
 }
 
+.rand-info {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.container img {
+    width: 50%;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.rand-info .text {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
