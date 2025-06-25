@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 10px;
 }
 
 .logo {
@@ -51,7 +52,7 @@ a, .sub-text {
     flex: auto;
     justify-content: center;
     align-items: center;
-    padding: 95px;
+    padding: 133px;
     gap: 10px;
 }
 
@@ -92,18 +93,26 @@ button {
     display: flex;
     flex-direction: column;
     padding: 100px;
-    margin: 0;
+    padding-top: 46px;
 }
 
 .cards {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 28px;
+}
+.card {
+    width: 170px;
+    text-align: center;
+    text-align-last: center;
 }
 
 .container img {
-    width: 50%;
+    width: 170px;
     max-width: 100%;
     border-radius: 12px;
+    margin-bottom: 5px;
 }
 
 .rand-info .text {
