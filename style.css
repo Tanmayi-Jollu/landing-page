@@ -105,7 +105,7 @@ button {
 .card {
     width: 170px;
     text-align: center;
-    text-align-last: center;
+    text-wrap-style: pretty;
 }
 
 .container img {
