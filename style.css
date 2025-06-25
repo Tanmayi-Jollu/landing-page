@@ -51,19 +51,26 @@ a, .sub-text {
     flex: auto;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding: 100px;
+    padding: 95px;
+    gap: 10px;
 }
 
 .text-main {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    line-height: 60px;
+    margin-bottom: 10px;
 }
 
 button {
+    color: #f9faf8;
+    font-weight: 600;
     background-color: #3882f6;
-    border-radius: 20px;
+    padding: 7px 27px;
+    border: #3882f6;
+    border-radius: 6px;
+    margin-top: 10px;
 }
 
 .hero-text {
@@ -71,13 +78,13 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     width: 450px;
+    margin-right: 58px;
 }
 
 img {
     width: 450px;
     height: auto;
     padding: 2px;
-    /* max-width: 100%; */
-    /* height: auto; */
+    max-width: 100%;
 }
 
