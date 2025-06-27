@@ -100,7 +100,7 @@ button {
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-top: 28px;
+    margin-top: 12px;
 }
 .card {
     width: 170px;
@@ -124,7 +124,8 @@ button {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 96px 300px;
+    padding: 96px 350px;
+    margin: 0;
 }
 
 .quote {
@@ -132,4 +133,12 @@ button {
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
+    text-align: start;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.quoter {
+    text-align: right;
+    font-size: 25px;
 }
